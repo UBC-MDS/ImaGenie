@@ -11,6 +11,7 @@ def flip(image, direction=0):
         The input image to be flipped, represented as a NumPy array or similar format.
     direction : str, optional
         The direction in which to flip the image:
+        
         - 0: for horizontal flip (default)
         - 1: vertical flip
 
