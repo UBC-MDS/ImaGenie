@@ -1,17 +1,18 @@
 import numpy as np
 def blur(image, stdev=1.0):
     """
-    Add noise to image using a Gaussian filter
+    Add noise to image using a Gaussian filter.
 
     Parameters:
     ----------
     image : ndarray
         The input image to be blurred, represented as a NumPy array 
-        or similar format 
+        or similar format.
     stdev : Float 
         Standard deviation for Gaussian/Normal distribution used to 
-        calculate the value of image pixels after filtering
-        Default is 1.0 for Standard Normal Distribution
+        calculate the value of image pixels after filtering.
+        
+        Default is 1.0 for Standard Normal Distribution.
 
     Returns:
     -------
